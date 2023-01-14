@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box; 
 }
-.grand{
+body{
     background-image: url(./Assets/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_437743.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,8 +18,9 @@
 }
 .parentform{
     width: 50%;
-    margin: 10px auto;
-    background-color:#e9dfe4;
+    margin: 50px auto;
+
+    /* background-color:#e9dfe4; */
 }
 .name input{
     width: 99%;
@@ -28,7 +29,8 @@
     border: 1px solid black;
     font-family: monospace;
     margin: 5px;
-    padding: 7px
+    padding: 7px;
+    background: none;
 
 }
 .name  label{
@@ -41,7 +43,8 @@
     border: 1px solid black;
     font-family: monospace;
     margin: 5px;
-    padding: 7px
+    padding: 7px;
+    background: none
 }
 .email  label{
   
@@ -53,7 +56,8 @@
     border: 1px solid black;
     font-family: monospace;
     margin: 5px;
-    padding: 7px
+    padding: 7px;
+    background: none
 }
 .mesg label{
     margin: 5px 5px;
@@ -65,7 +69,8 @@
     border: 1px solid black;
     font-family: monospace;
     margin: 5px;
-    padding: 7px
+    padding: 7px;
+    background: none
 }
 .subject label{
     margin: 5px 10px;
@@ -80,6 +85,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    
 }
 
     
